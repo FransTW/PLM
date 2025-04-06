@@ -1379,8 +1379,13 @@ input, select, textarea {
 		letter-spacing: -0.015em;
 	}
 
-	h3, h4, h5, h6 {
+	h3 {
 		font-size: 1.25em;
+		letter-spacing: -0.015em;
+	}
+
+	h4, h5, h6 {
+		font-size: 1em;
 		letter-spacing: -0.015em;
 	}
 
@@ -1394,8 +1399,12 @@ input, select, textarea {
 			font-size: 1.375em;
 		}
 
-		h3, h4, h5, h6 {
+		h3 {
 			font-size: 1em;
+		}
+
+		h4, h5, h6 {
+			font-size: 0.8em;
 		}
 
 	}
@@ -1444,7 +1453,7 @@ input, select, textarea {
 	}
 
 		table.default tbody tr {
-			border-bottom: solid 1px #f4f4f4;
+			border-bottom: solid 1px #000000;
 		}
 
 		table.default td {
@@ -1458,7 +1467,7 @@ input, select, textarea {
 		}
 
 		table.default thead {
-			border-bottom: solid 2px #f4f4f4;
+			border-bottom: solid 2px #000000;
 		}
 
 /* Form */
@@ -1867,6 +1876,22 @@ input, select, textarea {
 
 			#nav a span {
 				display: none;
+			}
+
+		}
+
+		@media screen and (max-width: 600px) {
+
+			#nav a {
+				width: 0.8em;
+			}
+
+		}
+
+		@media screen and (max-width: 500px) {
+
+			#nav a {
+				width: 0.5em;
 			}
 
 		}
