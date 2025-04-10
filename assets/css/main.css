@@ -1307,10 +1307,10 @@ input, select, textarea {
 
 	body {
 		background-image: url("images/background\ filler\ 2.webp");
-		background-repeat: repeat, no-repeat;
-		background-size: auto, 100% 100%;
+		background-repeat: no-repeat;
+		background-size: cover;
 		background-attachment: fixed;
-		overflow-y: scroll;
+		overflow-y: auto;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
