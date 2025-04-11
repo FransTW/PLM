@@ -83,17 +83,17 @@
 
 				<h3>Scenario</h3>
 				<p>
-					We are a company that develops and sells wind turbines, manufacturing is outsourced.
-					A wind turbine is currently released onto the market but improvements can be made on the wind blades and yaw.
-					One of the project managers raises issues on different parts of these assemblies and proposes a redesign of the blades and yaw.
+					During this project a company is simulated that develops and sells wind turbines, manufacturing is outsourced.
+					A wind turbine is currently released onto the market.
+					However, improvements can be made to the wind blades and yaw.
+					A project managers raises issues on different parts of these assemblies and proposes a redesign of the blades and yaw.
 					This process will be executed by an internal design team making use of the full PLM change process, CR with CA governed by CO.
 				</p>
 
 				<h3>Roles</h3>
-				<p>The wind turbine is in need of improved blades and an improved yaw system. Both of these issues
-					are raised and will then proceed through the whole PLM process, making sure that the
-					right people make and approve changes. Simulating a bigger company requires many different roles, these are divided over our smaller group of four.
-					The assigned roles can be seen in the table below.</p>
+				<p>
+					To simulate the internal structure of the company different roles are defined. Each of the (four) group members in this project will be assigned to represent multiple roles within this simulated company during the PLM process. In the table below the defined roles can be observed and who is assigned to each role. 
+				</p>
 
 
 				<table class="default">
@@ -199,13 +199,17 @@
 					<h2>Issues</h2>
 				</header>
 
-				<h3>Mark up</h3>
+				
 				<p>
 					First, an issue is raised by either an engineer, expert or product manager. In this case, the
 					issues were raised by the project leader. This process starts in the 3D markup space, where comments
 					can be placed on the parts that should be changed. This is helpful as the 3D markup acts as
 					reference point for what the exact issue is, and which parts of the product are involved.
-					<br>
+				</p>
+				
+				<h3>Mark up</h3>
+
+				<p>
 					Two separate initial 3D markup’s were created, one for each problem (blade, yaw). The
 					3D markups for the blade and yaw can be seen in the images below accompanied with their
 					corresponding comments.
@@ -226,6 +230,10 @@
 						</div>
 					</div>
 				</section>
+
+				<p>
+					Each of these markups can be used within their respective processes to act as clarification of what the exact problem is and which parts are influenced by this problem.
+				</p>
 
 				<h3>Creating the issues</h3>
 				<p>
@@ -278,7 +286,7 @@
 				<h3>Impact analysis</h3>
 				<p>
 					The change manager creates impact analyses (IA) corresponding to different experts, such as a financial expert or material design expert.
-					Experts receive their respective IA's and files and are asked to give valuable insights on what a possible change could mean for the product and/or company from their expertise.  
+					Experts receive their respective IA's and files and are asked to give valuable insights on what the change process would mean for the product and/or company from the perspective of their expertise.  
 				</p>
 
 				<section>
@@ -294,7 +302,7 @@
 
 				<h4>Approval routing</h4>
 				<p>
-					After all impact analyses have been written by experts, the change owner should approve the impact analysis, simply checking whether all analyses have been composed.
+					After all impact analyses have been written by the experts, the change owner should approve the impact analysis, simply checking whether all analyses have been composed.
 					The project leader has a more in-depth look at the analyses and is the first to assert whether the impact of changing the product is feasible and worth the risk.
 					<br>
 					The final approval should come from the manager with the authority to do so when all risks are weighed against the potential benefits. 
@@ -325,7 +333,7 @@
 				<h3>Gantt chart</h3>
 				<p>
 					After the change request has been approved, the project leader makes a planning for the whole project. 
-					This is done by making a Gantt Chart using the respectively named application in 3Dexperience. 
+					This is done by making a Gantt Chart using the project management application in 3Dexperience. 
 					In this chart, the project leader defines milestones and tasks to then define their order and dependencies. 
 					During the project, progress is routinely checked to make sure that no part is lacking, 3Dexperience also notifies involved users when deadlines are near or overdue. 
 					The initial panning can be seen in the Gantt Chart below. 
@@ -335,19 +343,24 @@
 					<div class="row">
 						<div class="col-12">
 							<h4>General planning and milestones</h4>
+							<p>
+								Here the general span of the project can be observed including the different milestones within the sub-projects.
+							</p>
 							<a class="image fit"><img src="images/Gantt.png" alt=""></a>
 						</div>
 						<div class="col-12">
-							<h4>Blade</h4>
+							<h4>Sub-projects</h4>
+							<p>
+								When looking at the different sub-project's different tasks, milestones and dependencies can be observed. Using this overview the project manager can see all planned activities for a certain project in one overview. Furthermore, task assignment overviews for each user can also be found. This overview can be used to better distributed work over the project group. 
+								<br>
+								In general, the project management app provides an easy way to plan, manage and overview one or more projects. 
+							</p>
+							<h4>Blade project</h4>
 							<a class="image fit"><img src="images/Gantt blade.png" alt=""></a>
 						</div>
 						<div class="col-12">
-							<h4>Yaw</h4>
+							<h4>Yaw project</h4>
 							<a class="image fit"><img src="images/Gantt yaw.png" alt=""></a>
-						</div>
-						<div class="col-12">
-							<h4>Report</h4>
-							<a class="image fit"><img src="images/Gantt report.png" alt=""></a>
 						</div>
 					</div>
 				</section>
@@ -407,7 +420,7 @@
 					<h2>Change Actions</h2>
 				</header>
 				<p>
-					The change actions created from the change orders are linked to the specific engineer who should perform the task. 
+					The change actions created under the change orders are linked to the specific engineer who should perform the task. 
 					When the engineer is done with its part, it is sent for approval to a domain expert and
 					then to the project lead.
 					<br>
@@ -426,11 +439,15 @@
 					</div>
 				</section>
 
+				<p>
+					During the execution of the change process the engineer selects the CA when editing the CAD files. This way the changes to the relevant files will be recorded under the CA as applied changes. These changes can be reviewed, approved or reversed in an easy way. 
+				</p>
+
 				<h3>Revision</h3>
 
 				<p>
 					As defined in the scenario, the company already has an existing wind turbine released to the market that will undergo the change process. 
-					By applying the CA’s a new revision of the changed parts is made. 
+					When applying the CA’s a new revision of the changed parts is made. 
 					These revised parts will then be released to the market once the full change process is completed (CO is approved). 
 				</p>
 
@@ -557,15 +574,38 @@
 					</tr>
 					<tr>
 						<td>Old</td>
-						<td>-2.914</td>
-						<td>0.648</td>
-						<td>-0.003</td>
+						<td>-1.534</td>
+						<td>0.370</td>
+						<td>-3.56e-04</td>
 					</tr>
 					<tr>
 						<td>New</td>
-						<td>-0.011</td>
-						<td>-0.062</td>
-						<td>-0.071</td>
+						<td>6.710e-04</td>
+						<td>0.337</td>
+						<td>0.120</td>
+					</tr>
+					
+				</table>
+
+				<p>
+					After adjusting for the differance in coordinate systems the following Drag and Lift are obtained.
+				</p>
+
+				<table class="default">
+					<tr>
+						<th>Model</th>
+						<th>Drag (N)</th>
+						<th>Lift (N)</th>
+					</tr>
+					<tr>
+						<td>Old</td>
+						<td>1.534</td>
+						<td>0.370</td>
+					</tr>
+					<tr>
+						<td>New</td>
+						<td>0.337</td>
+						<td>0.120</td>
 					</tr>
 					
 				</table>
